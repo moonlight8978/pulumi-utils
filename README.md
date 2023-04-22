@@ -3,5 +3,6 @@
 ## Usage
 
 ```bash
-pnpm add https://github.com/axios/axios/tree/<ref>
+pnpm add https://github.com/moonlight8978/pulumi-utils/tree/<ref>
+git submodule add https://github.com/moonlight8978/pulumi-utils.git ./packages/utils
 ```
