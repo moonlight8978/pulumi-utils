@@ -1,0 +1,45 @@
+{
+  "name": "pulumi-utils",
+  "version": "1.0.0",
+  "description": "Utilities for Pulumi project",
+  "homepage": "https://github.com/moonlight8978/pulumi-utils#readme",
+  "bugs": {
+    "url": "https://github.com/moonlight8978/pulumi-utils/issues"
+  },
+  "license": "MIT",
+  "author": "_MoonLight_ <moonlight8978@gmail.comim>",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "bin": {
+    "gen-secret": "build/src/secret-generator.js"
+  },
+  "scripts": {
+    "build": "ttsc; exit 0",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^5.37.0",
+    "@pulumi/awsx": "^1.0.2",
+    "@pulumi/pulumi": "^3.64.0",
+    "commander": "^10.0.1",
+    "ip-cidr": "~3.1.0",
+    "lodash": "~4.17.21",
+    "module-alias": "^2.2.2",
+    "shelljs": "^0.8.5",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "~29.5.1",
+    "@types/jsbn": "~1.2.30",
+    "@types/lodash": "~4.14.194",
+    "@types/node": "^18",
+    "@types/shelljs": "^0.8.12",
+    "jest": "~29.5.0",
+    "ts-jest": "~29.1.0",
+    "ttypescript": "^1.5.15",
+    "typescript": "^4.9"
+  },
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  }
+}
