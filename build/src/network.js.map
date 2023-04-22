@@ -1,0 +1,1 @@
+{"version":3,"file":"network.js","sourceRoot":"","sources":["../../src/network.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,iDAAkC;AAE3B,MAAM,uBAAuB,GAAG,CAAC,IAAY,EAAE,EAAE;IACtD,OAAO,GAAG,CAAC,SAAS,EAAE,CAAC,IAAI,CAAC,CAAC,MAAM,EAAE,EAAE,CAAC,GAAG,MAAM,CAAC,IAAI,GAAG,IAAI,EAAE,CAAC,CAAA;AAClE,CAAC,CAAA;AAFY,QAAA,uBAAuB,2BAEnC"}
