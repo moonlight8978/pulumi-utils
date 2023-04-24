@@ -21,4 +21,8 @@ __exportStar(require("./src/types"), exports);
 __exportStar(require("./src/website"), exports);
 __exportStar(require("./src/storage"), exports);
 __exportStar(require("./src/utils"), exports);
+__exportStar(require("./src/ecs"), exports);
+__exportStar(require("./src/rds"), exports);
+__exportStar(require("./src/secret"), exports);
+__exportStar(require("./src/certificate"), exports);
 //# sourceMappingURL=index.js.map
